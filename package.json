@@ -11,7 +11,7 @@
   ],
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc --noEmit false && cp src/flex.css dist/"
+    "build": "node api.js && tsc --noEmit false && cp src/flex.css dist/"
   },
   "keywords": [
     "tailwind",
